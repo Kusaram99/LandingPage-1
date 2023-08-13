@@ -14,6 +14,7 @@ html {
     -moz-osx-font-smoothing: grayscale;
     background: #8fa484;
     font-weight: 500;
+    text-transform: uppercase;
 }
 
 :root {
@@ -79,7 +80,7 @@ html {
 
 .nav-btns-div a:hover {
     text-decoration: underline;
-} 
+}
 
 .nav-btns-container {
     width: 100%;
@@ -276,7 +277,7 @@ html {
     font-family: "Open Sans", sans-serif;
     font-weight: 400;
     line-height: 1.43;
-    border-radius: 4px;
+    border-radius: 15px;
     background-color: #194600;
 }
 
@@ -321,7 +322,7 @@ html {
 
 /* SECTION-3 STYLES -------- */
 .section-3 {
-    width: 900px;
+    width: 1150px;
     margin: auto;
     display: flex;
     justify-content: center;
@@ -335,7 +336,7 @@ html {
     flex-grow: 1;
     position: relative;
     text-align: center;
-    border-radius: 4px;
+    border-radius: 15px;
     padding: 43px 10px;
     background-color: #00000000;
     box-shadow: 0 20px 30px rgba(0, 0, 0, .12);
@@ -356,7 +357,7 @@ html {
     top: 10px;
     right: 10px;
     border: 1px solid #f5841f;
-    border-radius: 4px;
+    border-radius: 15px;
     padding: 5px 10px;
     cursor: pointer;
     box-shadow: none;
@@ -407,7 +408,7 @@ html {
     font-size: 18px;
 }
 
-.parent-box .detail {
+.detail {
     font-family: "Open Sans", sans-serif;
     font-style: normal;
     font-size: 14px;
@@ -415,7 +416,7 @@ html {
 
 /* section - 4 styles------- */
 .section-4 {
-    width: 900px;
+    width: 1150px;
     display: flex;
     justify-content: center;
     margin: 50px auto 100px auto;
@@ -425,7 +426,7 @@ html {
 .box-2 {
     flex-grow: 1;
     position: relative;
-    border-radius: 4px;
+    border-radius: 15px;
     padding: 50px 16px 50px 16px;
     text-align: center;
     box-shadow: 0 20px 30px rgba(0, 0, 0, .12);
@@ -507,8 +508,6 @@ footer {
         left: initial;
     } 
 
-    /* background-color: #00000000; */
-
     .menusBtnController {
         display: block;
         height: 100vh;
@@ -570,11 +569,6 @@ footer {
     .section-4 {
         width: initial;
     }
-
-    /* .parent-box {
-        width: 100%;
-        margin: 0;
-    } */
 }
 
 @media (min-width: 1200px) {
