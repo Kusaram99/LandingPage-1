@@ -108,6 +108,7 @@ html {
 
 .backArrow {
     display: none;
+    cursor: pointer;
 }
 
 /* section-1 styles -------- */
@@ -497,6 +498,7 @@ footer {
 
     .menuBtn {
         display: block;
+        cursor: pointer;
     }
 
 
